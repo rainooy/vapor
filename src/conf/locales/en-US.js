@@ -1,0 +1,186 @@
+export default {
+  title: 'Bytom Blockchain Explorer',
+  coinbase_tips: 'No Inputs (Newly Generated Coins)',
+  home_title: 'Bytom Blockchain Explorer',
+  home_sub_title: 'Mainnet Status',
+  fee: 'Fee',
+  search_unknown_keyword_title: 'Input format error',
+  search_unknown_keyword_des: 'Support block height, block hash, transaction hash search',
+  search_error_keyword_title: 'Input cannot be empty',
+  search_error_keyword_des: 'Support block height, block hash, transaction hash search',
+
+  nav_home: 'Home',
+  nav_block: 'Block',
+  nav_address: 'Address',
+  nav_tx: 'Transaction',
+
+  home_search_tips: 'Address/Height/Hash...',
+  home_search_btn_text: 'Search',
+  home_list_title: 'Latest Blocks',
+  home_list_height: 'Height',
+  home_list_time: 'Age',
+  home_list_txs_count: 'TXs',
+  home_list_block_size: 'Size (KB)',
+  home_list_block_hash: 'Block Hash',
+  home_list_block_mined_address: 'Mined Address',
+  home_list_block_mined_by: 'Mined By',
+
+  home_charts_title: 'Prices',
+  home_charts_source: '* Source from huobi',
+
+  // block part 1
+  block_hd_title: 'Block {id}',
+  block_hd_time: 'TimeStamp',
+  block_hd_txs_count: 'Transactions',
+  block_hd_block_size: 'Size(KB)',
+  block_hd_nonce: 'Nonce',
+  block_hd_difficulty: 'Difficulty',
+  block_hd_version: 'Version',
+  // block part 2
+  block_hd_block_hash: 'Block Hash',
+  block_hd_pre_block: 'Prev Block',
+  block_hd_tx_merkle_root: 'Merkle Root',
+  block_hd_tx_status_hash: 'Status Hash',
+  block_hd_address: 'Mined By',
+  block_hd_bits: 'Bits',
+
+  // address
+  address_hd_title: 'Address Summary',
+  address_hd_address: 'Address',
+  address_hd_balance: 'Balance',
+  address_hd_received: 'Total Received',
+  address_hd_send: 'Total Sent',
+  address_hd_txs: 'Transactions',
+  address_hd_qrcode: 'QR Code',
+
+  // txs
+  // part 1
+  trans_hd_title: 'Transaction Summary',
+  trans_hd_height: 'Height',
+  trans_hd_age: 'Age',
+  trans_hd_time: 'TimeStamp',
+  trans_hd_size: 'Size (KB)',
+  // part 2
+  trans_hd_id: 'Transaction ID',
+  trans_hd_fee: 'Fee',
+  trans_hd_confirm: 'Confirmation',
+  trans_hd_status: 'Status',
+
+  trans_panel_expland_btn: 'All Address',
+  trans_panel_expland_btn_close: 'Hide Address',
+  trans_panel_expland_tips: 'Display All Address By Click.',
+
+  home_tabs_blocks: 'Blocks',
+  home_tabs_rank: 'Addr List',
+  home_tabs_pool: 'Mineral Pool',
+  
+  home_info_market_ranking: 'Market Ranking',
+  home_info_block: 'Last Block',
+  home_info_trans: 'Transactions',
+  home_info_nodes: 'All Nodes',
+  home_info_curculatior: 'Circulation',
+  home_info_hashrate: 'Mainnet Hashrate',
+  home_info_difficulty: 'Difficulty',
+
+  block_tabs_txs: 'Transactions',
+  block_tabs_comments: 'Comments',
+
+  address_tabs_txs: 'Latest TXs',
+
+  tx_tabs_detail: 'TX Detail',
+
+  tx_detail_arbitrary: 'Arbitrary',
+  tx_detail_control: 'Control_Program',
+  tx_detail_default: 'Default',
+  tx_detail_original: 'Original',
+  tx_detail_sts_success: 'Success',
+  tx_detail_sts_fail: 'Fail',
+
+  rank_list_rank: 'Rank',
+  rank_list_address: 'Address',
+  rank_list_balance: 'Balance',
+  rank_list_pst: 'Balance Proportion',
+  rank_list_time: 'Last Tx Time {tips}',
+  rank_list_status: 'Status',
+  rank_list_status_in_tips: 'Inputs',
+  rank_list_status_out_tips: 'Outputs',
+
+  pool_list_index: 'No',
+  pool_list_pool: 'Mineral Pool',
+  pool_list_amount: 'Blocks Mined',
+  pool_list_fee: 'Tx Fee',
+  pool_list_earn: 'Rewards',
+  pool_list_hashrate: 'Hashrate',
+  pool_list_hashrate_pst: 'Hashrate Share',
+  pool_list_info: '* Display 24 hours of data',
+
+  ft_sub_title: 'Professional Bytom Blockchain Explorer',
+  ft_nav_link: 'Link',
+  ft_nav_cp: 'Compony',
+  ft_nav_about: 'About us',
+  ft_nav_follow: 'Follow us',
+  ft_nav_dev: 'Developer',
+  ft_mobile: 'Mobile Version',
+  ft_nav_item_8btc: '8BTC',
+  ft_nav_item_bytom: 'Bytom.io',
+  ft_nav_faucet: 'Testnet Faucet',
+  ft_nav_gm_faucet: 'GM Testnet Faucet',
+
+  assets_page_nav: 'Assets',
+  assets_page_title: 'Bytom Blockchain Cryptoasset',
+  assets_tabs_all: 'All Assets',
+
+  assets_list_index: '#',
+  assets_list_asset: 'Asset',
+  assets_list_asset_id: 'Asset ID',
+  assets_list_price: 'Price',
+  assets_list_amount_circulation: 'Total Issued',
+  assets_list_address_count: 'Addresses',
+  assets_list_create_date: 'Release Time',
+
+  asset_page_nav: 'Asset Detail',
+
+  assets_hd_id: 'Asset ID',
+  assets_hd_price: 'Price',
+  assets_hd_owner: 'Holders',
+  assets_hd_txs: 'Transfers',
+  assets_hd_create_date: 'Release Time',
+  assets_hd_amount: 'Total Issued',
+  assets_hd_decimals: 'Decimals',
+  assets_hd_homepage: 'Website',
+
+  assets_tabs_txs: 'Transactions',
+  assets_tabs_owner: 'Holders',
+
+  nodes_page_nav: 'All Nodes',
+
+  stat_nav: 'Stats',
+  stat_nav_history: 'Stats-History',
+  stat_nav_pool: 'Pool Distribution',
+  
+  stat_history_hd_title: 'Historical Parameters',
+  
+  stat_history_hd_out: 'BTM Output',
+  stat_history_hd_txs: 'Transaction',
+  stat_history_hd_addr: 'Address',
+  stat_history_hd_asset: 'Assets',
+  stat_history_hd_hasgrate: 'ISSUE',
+  stat_history_hd_dift: 'RETIRE',
+  stat_history_hd_capacity: 'Number Of Blocks',
+  stat_history_hd_fee: 'Free',
+  
+  stat_chart_price_title: 'Price Line Chart',
+  stat_chart_price_issue: 'Mainnet Release',
+  stat_chart_star_title: 'The Graph Of Github Star',
+  stat_chart_btm_title: 'Output Curve Of BTM',
+  stat_chart_txs_title: 'Chart Of The Transactions',
+  
+  stat_pool_subtitle: 'Pool Distribution',
+  stat_pool_chart_title: 'Pie Chart',
+  stat_pool_chat_title_area: 'Area Chart',
+  stat_pool_chat_hours: '24 H',
+  stat_pool_chat_day: '3 D',
+  stat_pool_chat_week: '1 W',
+  stat_pool_chat_mo: '1 M',
+
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1fdfaf {
+        fill: rgba(0,0,0,0);
+      }
+
+      .cls-21 {
+        fill: #2869fa;
+      }
+    </style>
+  </defs>
+  <g id="in" transform="translate(-660 -210)">
+    <rect id="Rectangle_4035" data-name="Rectangle 4035" class="cls-1fdfaf" width="16" height="16" transform="translate(660 210)"/>
+    <path id="arrow_x5F_in_x5F_left_1_" class="cls-21" d="M7,2.8H5.6V1.4H1.4V12.6H5.6V11.2H7V14H0V0H7ZM5.46,7.14,9.1,4.2V6.3H14V7.7H9.1v2.45Z" transform="translate(661 211)"/>
+  </g>
+</svg>

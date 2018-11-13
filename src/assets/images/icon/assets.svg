@@ -1,0 +1,15 @@
+<svg id="All_Assets" data-name="All Assets" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #222;
+      }
+    </style>
+  </defs>
+  <rect id="矩形_4035" data-name="矩形 4035" class="cls-1" width="16" height="16" transform="translate(0)"/>
+  <path id="window_x5F_equal_1_" class="cls-2" d="M0,0V14H14V0ZM12.6,12.6H1.4V1.4H12.6ZM11.2,6.3H2.8V4.9h8.4Zm0,2.8H2.8V7.7h8.4Z" transform="translate(1 1)"/>
+</svg>

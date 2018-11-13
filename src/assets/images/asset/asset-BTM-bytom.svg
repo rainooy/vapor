@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1dfad {
+        fill: none;
+      }
+
+      .cls-290 {
+        fill: #040000;
+      }
+
+      .cls-3dfadg {
+        fill: #323333;
+      }
+
+      .cls-4gadfad {
+        fill: #555;
+      }
+    </style>
+  </defs>
+  <g id="asset-BTM-bytom" transform="translate(-371.961 -135)">
+    <rect id="矩形_4098" data-name="矩形 4098" class="cls-1dfad" width="19.962" height="20" transform="translate(372 135)"/>
+    <g id="组_3843" data-name="组 3843" transform="translate(371.962 135)">
+      <g id="组_3838" data-name="组 3838">
+        <path id="路径_9134" data-name="路径 9134" class="cls-290" d="M71.129,3.074l5.43,5.435L71.95,0,68.1,3.884Z" transform="translate(-64.216)"/>
+        <path id="路径_9135" data-name="路径 9135" class="cls-290" d="M139.03,206.235,133.6,200.8l4.608,8.51,3.85-3.884Z" transform="translate(-125.98 -189.348)"/>
+        <path id="路径_9136" data-name="路径 9136" class="cls-290" d="M3.074,106.78,6.559,99.4l-5.333,5.327L0,105.959l3.884,3.85Z" transform="translate(0 -93.731)"/>
+        <path id="路径_9137" data-name="路径 9137" class="cls-290" d="M206.235,71.129l-5.435,5.43,8.51-4.608-3.884-3.85Z" transform="translate(-189.348 -64.216)"/>
+      </g>
+      <g id="组_3839" data-name="组 3839" transform="translate(3.074)">
+        <path id="路径_9138" data-name="路径 9138" class="cls-3dfadg" d="M142.159,6.559l-5.327-5.333L135.6,0l4.608,8.51Z" transform="translate(-130.94)"/>
+        <path id="路径_9139" data-name="路径 9139" class="cls-3dfadg" d="M99.4,202.751l6.559,6.559-4.608-8.51Z" transform="translate(-96.805 -189.348)"/>
+        <path id="路径_9140" data-name="路径 9140" class="cls-3dfadg" d="M59.335,101.351,57.385,99.4,53.9,106.78Z" transform="translate(-53.9 -93.731)"/>
+        <path id="路径_9141" data-name="路径 9141" class="cls-3dfadg" d="M202.751,142.159l6.559-6.559-8.51,4.608Z" transform="translate(-192.422 -127.866)"/>
+      </g>
+      <g id="组_3840" data-name="组 3840">
+        <path id="路径_9142" data-name="路径 9142" class="cls-4gadfad" d="M1.637,28.7,0,34.8l3.337-1.785Z" transform="translate(0 -27.063)"/>
+        <path id="路径_9143" data-name="路径 9143" class="cls-4gadfad" d="M293.294,220.5l1.637-6.1-3.331,1.785Z" transform="translate(-274.969 -202.172)"/>
+        <path id="路径_9144" data-name="路径 9144" class="cls-4gadfad" d="M28.7,293.2l6.1,1.637L33.012,291.5Z" transform="translate(-27.063 -274.875)"/>
+        <path id="路径_9145" data-name="路径 9145" class="cls-4gadfad" d="M220.5,1.637,214.4,0l1.785,3.331Z" transform="translate(-202.172)"/>
+      </g>
+      <g id="组_3841" data-name="组 3841">
+        <path id="路径_9146" data-name="路径 9146" class="cls-3dfadg" d="M30.947,3.884,34.8,0,28.7,1.637l1.7,4.312Z" transform="translate(-27.063)"/>
+        <path id="路径_9147" data-name="路径 9147" class="cls-3dfadg" d="M218.25,247.765l-3.85,3.884,6.1-1.637L218.8,245.7Z" transform="translate(-202.172 -231.687)"/>
+        <path id="路径_9148" data-name="路径 9148" class="cls-3dfadg" d="M3.884,218.25,0,214.4l1.637,6.1,4.312-1.7Z" transform="translate(0 -202.172)"/>
+        <path id="路径_9149" data-name="路径 9149" class="cls-3dfadg" d="M247.765,30.947l3.884,3.85-1.637-6.1L245.7,30.394Z" transform="translate(-231.687 -27.063)"/>
+      </g>
+      <g id="组_3842" data-name="组 3842">
+        <path id="路径_9150" data-name="路径 9150" class="cls-290" d="M3.337,104.3,0,106.085l.77.776Z" transform="translate(0 -98.351)"/>
+        <path id="路径_9151" data-name="路径 9151" class="cls-290" d="M291.6,203.361l3.331-1.785-.776-.776Z" transform="translate(-274.969 -189.348)"/>
+        <path id="路径_9152" data-name="路径 9152" class="cls-290" d="M106.085,294.837l.776-.77L104.3,291.5Z" transform="translate(-98.351 -274.875)"/>
+        <path id="路径_9153" data-name="路径 9153" class="cls-290" d="M201.576,0,200.8.77l2.561,2.561Z" transform="translate(-189.348)"/>
+      </g>
+    </g>
+  </g>
+</svg>

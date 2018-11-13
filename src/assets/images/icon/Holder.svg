@@ -1,0 +1,17 @@
+<svg id="Holder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1gafgafa {
+        fill: none;
+      }
+
+      .cls-2fadfad {
+        fill: currentColor;
+      }
+    </style>
+  </defs>
+  <rect id="矩形_4035" data-name="矩形 4035" class="cls-1gafgafa" width="16" height="16" transform="translate(0)"/>
+  <path id="减去_4" data-name="减去 4" class="cls-2fadfad" d="M17819.4,1263h-1.4a6.657,6.657,0,0,1,4.336-6.507,4.317,4.317,0,0,1-1.539-3.294,4.2,4.2,0,0,1,8.4,0,4.316,4.316,0,0,1-1.539,3.294,6.41,6.41,0,0,1,3.2,2.506h-1.787a5.993,5.993,0,0,0-8.025-.111,5.506,5.506,0,0,0-1.645,4.111Zm5.6-12.6a2.8,2.8,0,1,0,2.8,2.8A2.8,2.8,0,0,0,17825,1250.4Z" transform="translate(-17817 -1248)"/>
+  <rect id="矩形_4109" data-name="矩形 4109" class="cls-2fadfad" width="6" height="1" transform="translate(9 12)"/>
+  <rect id="矩形_4110" data-name="矩形 4110" class="cls-2fadfad" width="6" height="1" transform="translate(9 14)"/>
+</svg>

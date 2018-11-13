@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fdac3e;
+      }
+
+      .cls-2 {
+        fill: #fdee3e;
+      }
+
+      .cls-3 {
+        fill: #ffdf31;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        fill: #e68f19;
+      }
+
+      .cls-6 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-7 {
+        fill: #ffa831;
+      }
+
+      .cls-8 {
+        fill: #ffbd62;
+      }
+
+      .cls-9 {
+        fill: #e6bf19;
+      }
+
+      .cls-10 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-11 {
+        fill: #ffea76;
+      }
+
+      .cls-12 {
+        clip-path: url(#clip-path-3);
+      }
+
+      .cls-13 {
+        clip-path: url(#clip-path-4);
+      }
+
+      .cls-14 {
+        clip-path: url(#clip-path-5);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="矩形_4101" data-name="矩形 4101" class="cls-1" width="3" height="24.225" rx="1.5"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="矩形_4101-2" data-name="矩形 4101" class="cls-2" width="3" height="13.623" rx="1.5"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="矩形_4101-3" data-name="矩形 4101" class="cls-1" width="3" height="13.595" rx="1.5"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect id="矩形_4101-4" data-name="矩形 4101" class="cls-3" width="3" height="3" rx="1.5"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <rect id="矩形_4101-5" data-name="矩形 4101" class="cls-1" width="3" height="3" rx="1.5"/>
+    </clipPath>
+  </defs>
+  <g id="asset-MMT-mimi" transform="translate(-1110 -210)">
+    <rect id="矩形_4098" data-name="矩形 4098" class="cls-4" width="20" height="20" transform="translate(1110 210)"/>
+    <g id="组_3846" data-name="组 3846" transform="translate(485.098 -729.017) rotate(45)">
+      <rect id="矩形_4099" data-name="矩形 4099" class="cls-5" width="3" height="24.225" rx="1.5" transform="translate(1118.5 210)"/>
+      <g id="蒙版组_8" data-name="蒙版组 8" class="cls-6" transform="translate(1118.5 210)">
+        <rect id="矩形_4100" data-name="矩形 4100" class="cls-7" width="3" height="24.225" rx="1.5" transform="translate(-0.7)"/>
+      </g>
+      <rect id="矩形_4102" data-name="矩形 4102" class="cls-8" width="0.5" height="22.225" rx="0.25" transform="translate(1119 211)"/>
+    </g>
+    <g id="组_3848" data-name="组 3848" transform="translate(477.604 -729.013) rotate(45)">
+      <rect id="矩形_4099-2" data-name="矩形 4099" class="cls-9" width="3" height="13.623" rx="1.5" transform="translate(1118.5 210)"/>
+      <g id="蒙版组_8-2" data-name="蒙版组 8" class="cls-10" transform="translate(1118.5 210)">
+        <rect id="矩形_4100-2" data-name="矩形 4100" class="cls-3" width="3" height="13.623" rx="1.5" transform="translate(-0.7)"/>
+      </g>
+      <rect id="矩形_4102-2" data-name="矩形 4102" class="cls-11" width="0.5" height="11.623" rx="0.25" transform="translate(1119 211)"/>
+    </g>
+    <g id="组_3847" data-name="组 3847" transform="translate(485.083 -721.515) rotate(45)">
+      <rect id="矩形_4099-3" data-name="矩形 4099" class="cls-5" width="3" height="13.595" rx="1.5" transform="translate(1118.5 210)"/>
+      <g id="蒙版组_8-3" data-name="蒙版组 8" class="cls-12" transform="translate(1118.5 210)">
+        <rect id="矩形_4100-3" data-name="矩形 4100" class="cls-7" width="3" height="13.595" rx="1.5" transform="translate(-0.7)"/>
+      </g>
+      <rect id="矩形_4102-3" data-name="矩形 4102" class="cls-8" width="0.5" height="11.595" rx="0.25" transform="translate(1119 211)"/>
+    </g>
+    <g id="组_3849" data-name="组 3849" transform="translate(7.5 16)">
+      <rect id="矩形_4099-4" data-name="矩形 4099" class="cls-9" width="3" height="3" rx="1.5" transform="translate(1118.5 210)"/>
+      <g id="蒙版组_8-4" data-name="蒙版组 8" class="cls-13" transform="translate(1118.5 210)">
+        <rect id="矩形_4100-4" data-name="矩形 4100" class="cls-3" width="3" height="3" rx="1.5" transform="translate(-0.7)"/>
+      </g>
+      <rect id="矩形_4102-4" data-name="矩形 4102" class="cls-11" width="0.5" height="0.5" rx="0.25" transform="translate(1119 211.25)"/>
+    </g>
+    <g id="组_3850" data-name="组 3850" transform="translate(-7.5 1)">
+      <rect id="矩形_4099-5" data-name="矩形 4099" class="cls-5" width="3" height="3" rx="1.5" transform="translate(1118.5 210)"/>
+      <g id="蒙版组_8-5" data-name="蒙版组 8" class="cls-14" transform="translate(1118.5 210)">
+        <rect id="矩形_4100-5" data-name="矩形 4100" class="cls-7" width="3" height="3" rx="1.5" transform="translate(-0.7)"/>
+      </g>
+      <rect id="矩形_4102-5" data-name="矩形 4102" class="cls-8" width="0.5" height="0.5" rx="0.25" transform="translate(1119 211.25)"/>
+    </g>
+  </g>
+</svg>
