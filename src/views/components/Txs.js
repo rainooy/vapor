@@ -13,6 +13,9 @@ class Txs extends Component {
       <div className={style.txs_wrap}>
         <div className={style.wrap}>
           {
+            !data.length && <p style={{ textAlign: 'center' }}>no data</p>
+          }
+          {
             data.map((item, index) => (
               <Panel isDetail={isDetail} key={item.id} curAddress={curAddress} isAddress={isAddress} {...item} symbol={symbol}></Panel>
             ))

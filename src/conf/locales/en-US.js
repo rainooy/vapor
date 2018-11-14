@@ -1,5 +1,5 @@
 export default {
-  title: 'Bytom Blockchain Explorer',
+  title: 'Bytom Sidechain Explorer',
   coinbase_tips: 'No Inputs (Newly Generated Coins)',
   home_title: 'Bytom Blockchain Explorer',
   home_sub_title: 'Mainnet Status',

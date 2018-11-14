@@ -37,15 +37,16 @@ class Address extends React.Component {
   
   componentDidMount() {
     const { match: { params }, address, getAddressDetail, } = this.props;
-    if(!address.data[params.address]){
-      getAddressDetail(params.address);
-    }
+    getAddressDetail(params.address);
+    // if(!address.data[params.address]){
+    //   getAddressDetail(params.address);
+    // }
   }
 
   componentDidUpdate = (prevProps, prevState) => {
     const { match: { params }, address, getAddressDetail, } = this.props;
     const { match: { params: preParams } } = prevProps;
-    if(!address.data[params.address] && preParams.address !== params.address){
+    if(preParams.address !== params.address){
       getAddressDetail(params.address);
     }
   }

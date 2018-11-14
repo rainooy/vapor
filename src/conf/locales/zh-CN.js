@@ -1,7 +1,7 @@
 export default {
-  title: '比原链区块浏览器',
+  title: 'Bytom Sidechain Explorer',
   coinbase_tips: '生成区块奖励',
-  home_title: '比原链区块浏览器',
+  home_title: 'Bytom Sidechain Explorer',
   home_sub_title: '主网状态',
   fee: '手续费',
   search_unknown_keyword_title: '输入格式错误，请重新输入',

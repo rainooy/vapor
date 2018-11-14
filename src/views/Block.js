@@ -37,9 +37,10 @@ class Block extends React.Component {
 
   componentDidMount() {
     const { match: { params }, block, getBlockDetail, } = this.props;
-    if(!block.data[params.id]){
-      getBlockDetail(params.id);
-    }
+    // if(!block.data[params.id]){
+    //   getBlockDetail(params.id);
+    // }
+    getBlockDetail(params.id);
   }
 
   componentDidUpdate = (prevProps, prevState) => {
@@ -59,8 +60,8 @@ class Block extends React.Component {
         {key: 'timeStamp', title: <Msg id="block_hd_time" />, value: format(detail.timestamp * 1000, 'YYYY-MM-DD HH:mm:ss')},
         {key: 'transactions', title: <Msg id="block_hd_txs_count" />, value: detail.transaction_count},
         {key: 'size', title: <Msg id="block_hd_block_size" />, value: _util.normalizeSize(detail.size)},
-        {key: 'random', title: <Msg id="block_hd_nonce" />, value: detail.nonce},
-        {key: 'difficulty', title: <Msg id="block_hd_difficulty" />, value: detail.difficulty},
+        // {key: 'random', title: <Msg id="block_hd_nonce" />, value: detail.nonce},
+        // {key: 'difficulty', title: <Msg id="block_hd_difficulty" />, value: detail.difficulty},
         {key: 'version', title: <Msg id="block_hd_version" />, value: detail.version},
       ],
       [
@@ -68,16 +69,7 @@ class Block extends React.Component {
         {key: 'pre', title: <Msg id="block_hd_pre_block" />, value: <Link to={`/block/${detail.previous_block_hash}`}>{detail.previous_block_hash}</Link>},
         {key: 'merkle', title: <Msg id="block_hd_tx_merkle_root" />, value: detail.transaction_merkle_root},
         {key: 'status', title: <Msg id="block_hd_tx_status_hash" />, value: detail.transaction_status_hash},
-        {
-          key: 'mined', 
-          title: <Msg id="block_hd_address" />, 
-          value: <span>
-              
-              <Link to={`/address/${detail.miner_address}`}>{detail.miner_address}</Link>
-              {/* {detail.miner_name && <i style={{ marginLeft: 10, border: '1px solid #e6e6e6', borderRadius: 6, padding: '1px 10px' }}>{detail.miner_name}</i>} */}
-            </span>
-        },
-        {key: 'bits', title: <Msg id="block_hd_bits" />, value: _util.digits(detail.bits)},
+        // {key: 'bits', title: <Msg id="block_hd_bits" />, value: _util.digits(detail.bits)},
       ]
     ]);
     return (

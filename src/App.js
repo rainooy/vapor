@@ -13,10 +13,10 @@ import enUS from 'antd/lib/locale-provider/en_US';
 import Home from './views/Home';
 import Block from './views/Block';
 import Trans from './views/Trans';
-import Nodes from './views/Nodes';
-import Stats from './views/stats';
-import Assets from './views/Assets';
-import Asset from './views/Asset';
+// import Nodes from './views/Nodes';
+// import Stats from './views/stats';
+// import Assets from './views/Assets';
+// import Asset from './views/Asset';
 import Address from './views/Address';
 import Header from './views/components/Header';
 
@@ -53,13 +53,14 @@ class App extends PureComponent {
               <Route path="/" render={(props) => <Header {...props} />}></Route>
               <Switch>
                 <Route exact path="/" render={(props) => <Home {...props} />} />
+                <Route exact path="/vapor" render={(props) => <Home type="vapor" {...props} />} />
                 <Route path="/block/:id" render={(props) => <Block {...props} />} />
                 <Route path="/address/:address" render={(props) => <Address {...props} />} />
                 <Route path="/tx/:id" render={(props) => <Trans {...props} />} />
-                <Route path="/nodes" render={(props) => <Nodes {...props} />} />
-                <Route path="/stats" render={(props) => <Stats {...props} />} />
-                <Route path="/assets" render={(props) => <Assets {...props} />} />
-                <Route path="/asset/:id" render={(props) => <Asset {...props} />} />
+                {/* <Route path="/nodes" render={(props) => <Nodes {...props} />} /> */}
+                {/* <Route path="/stats" render={(props) => <Stats {...props} />} /> */}
+                {/* <Route path="/assets" render={(props) => <Assets {...props} />} /> */}
+                {/* <Route path="/asset/:id" render={(props) => <Asset {...props} />} /> */}
                 <Redirect to="/" />
               </Switch>
               {/* <Footer /> */}

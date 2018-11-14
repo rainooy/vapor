@@ -1,6 +1,6 @@
 {
   "name": "@bytom/vapor",
-  "version": "2.1.2",
+  "version": "1.0.0",
   "description": "vapor blockchain explorer",
   "main": "lib/index",
   "repository": {

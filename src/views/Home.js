@@ -1,6 +1,5 @@
 import { Card, Table } from 'antd';
 
-import HashRateCharts from './components/HashRateCharts';
 import Search from './components/Search';
 import Tabs from './components/Tabs';
 import Blocks from './components/Blocks';
@@ -40,16 +39,14 @@ class Home extends Component {
   render() {
     
     const { info } = this.state;
-    const { blocks = [], config } = this.props;
+    const { type = 'bytom', location } = this.props;
     return (
       <>
         <div className={style.home_hd}>
           <div className={style.wrap}>
-            <h1 className={style.home_title}>
-              <Msg id="home_title" />
-              <span></span>
-            </h1>
-            <Search />
+            <h1 className={style.home_title}>{localStorage.getItem('curEnv') || 'Bytom'}</h1>
+            <p className={style.home_sub_title}><Msg id="home_title" /></p>
+            <Search {...this.props} />
           </div>     
         </div>
         <Tabs 
@@ -57,7 +54,7 @@ class Home extends Component {
             <><Svg width="14px" style={{ verticalAlign: 'middle', marginRight: 5 }} className={style.svg} svg={icon_blocks} /><Msg id="home_tabs_blocks" /></>, 
           ]}
         >
-          <Blocks />
+          <Blocks type={type}  />
         </Tabs>
         <Footer />
       </>

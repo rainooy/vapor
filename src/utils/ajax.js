@@ -6,7 +6,9 @@ const ajax = axios.create({
 });
 
 ajax.interceptors.request.use(function (config) {
-  // config.params && (config.params['_'] = +new Date());
+  config.params = Object.assign({}, config.params, {
+    _: + new Date(),
+  });
   return config;
 }, function (error) {
   return Promise.reject(error);

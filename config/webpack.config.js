@@ -63,6 +63,7 @@ const myPlugins = [
       env: {
         name: pkg.config.appName,
         apiHost: isDev ? config.apiHostDev : config.apiHostProd,
+        api: `${config.apiHostDev}/api/v2`,
         version: pkg.version,
       }
     }

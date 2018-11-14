@@ -15,6 +15,12 @@ class Blocks extends Component {
   componentDidMount() {
     this.props.getBlockList();
   }
+
+  componentDidUpdate(prevProps, prevState) {
+    if (this.props.type !== prevProps.type) {
+      this.props.getBlockList();
+    }
+  }
   
 
   // handle page change.
@@ -29,16 +35,17 @@ class Blocks extends Component {
       {
         title: <Msg id="home_list_height" />, 
         dataIndex: 'height',
+        width: 150,
         render: (text, item) => <Link to={`/block/${item.height}`}>{item.height}</Link> 
       },
       {
         title: <Msg id="home_list_time" />, 
-        width: 200,
+        width: 210,
         dataIndex: 'time', render: (text, item) => _util.date.distanceInWordsToNow(new Date(item.timestamp * 1000), { addSuffix: true })
       },
       {
         title: <Msg id="home_list_txs_count" />, 
-        width: 100,
+        width: 180,
         dataIndex: 'transaction_count'
       },
       {
@@ -51,12 +58,6 @@ class Blocks extends Component {
         dataIndex: 'hash',
         width: 400,
         render: (text, item) => <Link to={`/block/${item.hash}`}><p className={style.home_list_hash}>{item.hash}</p></Link>
-      },
-      {
-        title: <Msg id="home_list_block_mined_by" />,
-        width: 150,
-        dataIndex: 'miner_name', 
-        render: (text, item) => <MinePool pool={item.miner_name} address={item.miner_address} />
       },
     ];
     return (

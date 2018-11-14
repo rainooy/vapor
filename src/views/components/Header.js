@@ -15,11 +15,34 @@ const mapStateToProps = (state) => ({
 class Header extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    const curEnv = localStorage.getItem('curEnv') || 'Bytom';
+    this.state = {
+      curEnv,
+    };
+  }
+
+  handleChainSwitch = () => {
+    let { curEnv } = this.state;
+    const isBytom = curEnv === 'Bytom';
+    curEnv = isBytom ? 'Vapor' : 'Bytom';
+    window.env.curEnv = curEnv;
+    let path = '';
+    if (curEnv === 'Bytom') {
+      window.env.api = `${window.env.apiHost}/api/v2`;
+      path = '/';
+    } else {
+      window.env.api = `${window.env.apiHost}/api/vapor`;
+      path = '/vapor';
+    }
+    localStorage.setItem('curEnv', curEnv);
+    localStorage.setItem('apiHost', window.env.api);
+    this.setState({ curEnv });
+    this.props.history.push(path, { env: curEnv } );
   }
 
   render() {
     const { switchLang, config } = this.props;
+    const { curEnv } = this.state;
 
     const langMenu = (
       <Menu>
@@ -37,13 +60,7 @@ class Header extends React.Component {
           </div>
           <ul>
             {/* <li><Link to="/assets">{lang[config.lang]['nav_assets']}</Link></li> */}
-            {/* <li>
-              <Dropdown overlay={statsMenu}>
-                <a className="ant-dropdown-link" href="#">
-                  {lang[config.lang]['nav_stats']}
-                </a>
-              </Dropdown>
-            </li> */}
+            <li onClick={this.handleChainSwitch}><a>{curEnv === 'Bytom' ? 'Vapor' : 'Bytom'}</a></li>
             <li>
               <Dropdown overlay={langMenu}>
                 <a className="ant-dropdown-link" href="#">

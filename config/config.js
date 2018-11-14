@@ -6,8 +6,8 @@ module.exports = {
   nodeModules : path.resolve(__dirname, '../node_modules'),                  // default node modules path
   srcPath     : path.resolve(__dirname, '../src'),                           // source code path
   appMountId  : 'app',    
-  apiHostDev  : 'http://52.82.46.157:8000',
-  apiHostProd : 'https://blockmeta.com/api/v2',                                                   // reactjs mount element id
+  apiHostDev  : 'http://vapor.blockmeta.com',
+  apiHostProd : 'http://vapor.blockmeta.com',                                                   // reactjs mount element id
   // apiHostProd : 'http://139.224.11.46/api',                                                   // reactjs mount element id
   alias: {                                                                   // alias conf
     '_conf': path.join(__dirname, '../src/conf/config.js'),

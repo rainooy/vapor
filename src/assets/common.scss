@@ -79,62 +79,81 @@ i{
   .nav{
     margin-left: 128px;
   }
-  .search_wrap{
-    width: 776px;
-    margin: 0 auto;
+}
+// search
+.search_wrap{
+  width: 776px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.search{
+  width: 100%;
+  height: 100%;
+  line-height: 68px;
+  float: right;
+  text-align: right;
+  position: relative;
+  :global(.ant-btn-primary:hover){
+    background-color: transparent !important;
+    border-color: transparent;
+    outline: none;
   }
-  .search{
-    width: 476px;
-    height: 100%;
-    line-height: 68px;
-    float: right;
-    text-align: right;
-    position: relative;
-    :global(.ant-btn-primary:hover){
-      background-color: transparent !important;
-      border-color: transparent;
+  input{
+    height: 36px;
+    border: 0;
+    padding: 0 20px;
+    line-height: 36px;
+    font-size: 14px;
+    width: 100%;
+    color: $tx-bold;
+    border-radius: 2px;
+    &:focus{
       outline: none;
+      border: none;
     }
-    input{
-      height: 36px;
-      border: 0;
-      padding: 0 20px;
-      line-height: 36px;
-      font-size: 14px;
-      width: 100%;
-      color: $tx-bold;
-      border-radius: 2px;
-      &:focus{
-        outline: none;
-        border: none;
-      }
-    }
-    .searchBtn{
-      width: 20px;
-      height: 20px;
-      display: inline-block;
-      position: absolute;
-      top: 25px;
-      right: 15px;
-    }
+  }
+  .searchBtn{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    right: 15px;
   }
 }
 
 // home
 .home_hd{
   width: 100%;
-  height: 352px;
+  height: 272px;
   background: #fff url(../assets/images/background-banner@2x.png) top -68px center / 1920px no-repeat;
   .home_title{
-    font-size: 24px;
-    font-weight: normal;
+    font-size: 40px;
+    font-weight: 600;
     color: #fff;
-    padding: 21px 0 15px 0;
-    span:last-child{
-      opacity: .5; 
-      font-weight: normal;
-      margin-left: 20px;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 40px;
+    position: relative;
+    &::before{
+      content: 'beta';
+      display: inline-block;
+      padding: 0px 5px;
+      border-radius: 2px;
+      font-size: 12px;
+      line-height: 1.4em;
+      background-color: #fff;
+      color: #1656CE;
+      position: absolute;
+      right: 2px;
+      top: 55px;
     }
+  }
+  .home_sub_title{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
   }
 }
 
@@ -780,7 +799,7 @@ i{
   height: 182px;
   padding-top: 40px;
   color: #fff;
-  background: url('./images/background-footer@2x.png') top center / 1920px 242px;
+  background: radial-gradient(circle,rgba(49,49,49,1) 0%,rgba(31,31,31,1) 100%);
   .subTitle{
     width: 350px;
     display: inline-block;
